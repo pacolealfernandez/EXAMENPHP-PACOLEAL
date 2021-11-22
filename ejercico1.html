@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+
+    <title>Conversor</title>
+
+</head>
+<body>
+    <form id="cadenas" method="post" action="ejercicio1.php">
+        <fieldset>
+        <legend>Conversor de numeros</legend><br>
+
+            <h3>Opcion 1:Numero concreto</h3>
+            <label>Numero:</label><input type="text" name="text1"/>
+
+            <h3>Opcion 2: Numero aleatorio NOTA: El rango de numero es de 0 a 2048</h3>
+
+            <input type="radio" name="sino" value=" Si ">Si</input>
+            <input type="radio" name="sino" value=" No ">No</input>
+
+            <h3>Seleccione una conversion</h3>
+                <select name="operacion">
+                    <option value="decbi">Dec a Bin</option>
+                    <option value="decoc">Dec a Oct</option>
+                    <option value="deche">Dec a Hex</option>
+                    <option value="binde">Bin a Dec</option>
+                    <option value="octde">Oct a Dec</option>
+                    <option value="hexde">Hex a Dec</option>
+                </select>
+            <br><br>
+        </fieldset><br>
+        <input type="submit" name="resolver" value=" Realizar conversion ">
+        <button type="reset">Reestablecer valores</button>
+    </form>
+</body>
+<br>
+<p>Volver al inicio</p>
+<a href="inicio.html">Inicio</a>
+</html>
